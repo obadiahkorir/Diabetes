@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Exercise Type:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/editTextFirstName"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:singleLine="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip" />
+
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Duration (minutes):"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"
+                android:layout_below="@+id/editTextFirstName"
+                android:layout_alignLeft="@+id/editTextLastName"
+                android:layout_alignStart="@+id/editTextLastName"
+                android:layout_marginTop="18dp"
+                android:id="@+id/textView6" />
+            <EditText android:id="@+id/editTextLastName"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="11dp"
+
+                android:singleLine="true"
+                android:layout_above="@+id/textView5"
+                android:layout_alignLeft="@+id/editTextFirstName"
+                android:layout_alignStart="@+id/editTextFirstName"
+                android:layout_below="@+id/textView6" />
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text=" Time:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"
+                android:layout_above="@+id/in_time"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:id="@+id/textView5" />
+
+            <EditText android:id="@+id/in_time"
+
+                android:layout_width="fill_parent"
+
+                android:hint="Select Time......."
+
+                android:layout_height="wrap_content"
+
+                android:singleLine="true"
+                android:layout_above="@+id/textView4"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Date:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"
+                android:layout_above="@+id/in_date"
+                android:layout_alignLeft="@+id/contact"
+                android:layout_alignStart="@+id/contact"
+                android:layout_marginBottom="14dp"
+                android:id="@+id/textView4" />
+            <EditText android:id="@+id/in_date"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:singleLine="true"
+                android:layout_above="@+id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:text="Notes (Optional)"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"
+                android:layout_above="@+id/contact"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp"
+                android:id="@+id/textView3" />
+            <EditText android:id="@+id/contact"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"
+                android:layout_above="@+id/ButtonInsert"
+                android:layout_alignLeft="@+id/ButtonInsert"
+                android:layout_alignStart="@+id/ButtonInsert"
+                android:layout_marginBottom="12dp" />
+            <Button android:id="@+id/ButtonInsert"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:textColor="@color/grey"
+                android:background="@drawable/login_button"
+                android:text="Submit"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/editTextLastName"
+                android:layout_alignStart="@+id/editTextLastName"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp" />
+
+            <Button android:id="@+id/btncancel"
+                android:textColor="@color/grey"
+                android:layout_gravity="right"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/login_button"
+                android:text="Cancel"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/editTextFirstName"
+                android:layout_alignEnd="@+id/editTextFirstName" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

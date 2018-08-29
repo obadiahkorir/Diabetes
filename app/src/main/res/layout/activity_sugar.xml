@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical" >
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Blood Pressure:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/pressure"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dip"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:inputType="textEmailAddress"
+
+                android:ems="10"
+
+                android:text="Mesured Date:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+
+            <EditText android:id="@+id/in_date"
+
+                android:layout_width="fill_parent"
+                 android:hint="Please select Date"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dip"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Sugar Level   (mmo/L):"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/sugar"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Calories:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+
+            <EditText android:id="@+id/calories"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+
+                android:layout_marginBottom="15dp"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Basal Rate:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/basal"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+
+                android:layout_marginBottom="15dp"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:inputType="textEmailAddress"
+
+                android:ems="10"
+
+                android:text="Mesured Time:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+
+            <EditText android:id="@+id/in_time"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:hint="Please select Time"
+
+                android:layout_margin="5dip"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:text="Weight:"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/weight"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:text="Notes"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/notes"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btncancel"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+
+                    android:layout_gravity="right"
+                    android:layout_weight="1.17"
+                    android:background="@drawable/login_button"
+                    android:text="Cancel"
+                    android:textColor="@color/grey" />
+
+                <Button
+                    android:id="@+id/ButtonInsert"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+
+                    android:layout_gravity="left"
+                    android:background="@drawable/login_button"
+                    android:text="Submit"
+                    android:textColor="@color/grey"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginEnd="34dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

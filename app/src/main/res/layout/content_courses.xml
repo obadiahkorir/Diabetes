@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.obadiahkorir.diatebese.CoursesActivity"
+    tools:showIn="@layout/app_bar_courses">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/newCastle_image"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:src="@drawable/chicken1"-->
+        <!--/>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/diabte2"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_About"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/headerColor"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_About1"
+                android:textSize="18sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_cause"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/headerColor"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_cause1"
+                android:textSize="18sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_signs"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/headerColor"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_Signs1"
+                android:textSize="18sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_Signs2"
+                android:textSize="18sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_treatment"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/headerColor"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Newcastle_treament1"
+                android:textSize="18sp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

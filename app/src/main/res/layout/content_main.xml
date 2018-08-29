@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="10dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/locationstatisticscard"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="1dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/home"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/emergency"
+                        android:layout_weight="1.05" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/learning"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+
+                >
+                <ProgressBar
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/progress1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/appointment"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/appointment"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Appointment"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/sugar"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="1dp"
+                >
+                <LinearLayout
+                    android:id="@+id/sugarlayout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/suga1"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Sugar Level"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:id="@+id/cardleran"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+
+                >
+                <ProgressBar
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/progress"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/learn_layout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/learning"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="E-Learning"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/progress3"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="1dp"
+                >
+                <LinearLayout
+                    android:id="@+id/weight_layout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/weight"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Weights"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                >
+                <LinearLayout
+                    android:id="@+id/doctor_layout"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/doctor"
+                        />
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Doctor"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/diet"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/diet_layout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/diet"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Diet"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                >
+                <LinearLayout
+                    android:id="@+id/bloodlayout"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/blood"
+                        />
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Blood Pressure"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/medication"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/medication_layout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/medication"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Medication"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/exercise_layout"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/exercise"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Exercise"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>-->
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_weight="0.5"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/premium"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/premium_layout"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/premium"
+                        />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:textSize="12dp"
+                        android:text="Premium Service"
+                        android:textColor="@color/colorPrimarys"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+

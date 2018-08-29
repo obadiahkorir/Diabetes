@@ -1,0 +1,312 @@
+<resources>
+    <string name="app_name">MySugar</string>
+    <string name="rate_app_title">Rate our App</string>
+    <string name="rate_app_message">If you like our app, please take a moment to rate it in play store!</string>
+    <string name="dialog_app_rate">Rate App</string>
+    <string name="dialog_ask_later">Later</string>
+    <string name="dialog_your_feedback">Your Feedback</string>
+    <string name="app_message">Launch count is %d</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="login">LOG IN</string>
+    <string name="account">Profile</string>
+    <string-array name="Respiratory_diseases">
+        <item>Causes Of Diabetes</item>
+        <item> Diabetes Prevention</item>
+        <item> Signs and Symptoms</item>
+        <item> Diet/Food Recommended</item>
+    </string-array>
+    <!--Diabetes Diet-->
+    <string name="diabetes_diet">Diabetes Diet</string>
+    <string name="diabetes_diet1">Cinnamon</string>
+    <string name="diabetes_diet2">This fragrant spice has been shown to lower cholesterol and keep blood sugar more stable. Just 1/4 teaspoon of cinnamon per day improved fasting blood sugar and cholesterol levels in one study published in the journal Diabetes Care, and other studies have shown similar effects. Get your cinnamon fix by sprinkling it into smoothies, yogurt, oatmeal or even your coffee. Another plus for cinnamon? It adds flavor to your food without adding sugar or salt.</string>
+    <string name="diabetes_diet3">Nuts</string>
+    <string name="diabetes_diet4">Walnuts in particular have been shown to help fight heart disease and can improve blood sugar levels, all thanks to walnuts high levels of polyunsaturated fats. These healthy fats have been shown to help prevent and slow the progression of conditions like diabetes and heart disease. Almonds, pistachios and pecans also contain these beneficial fats. Nuts are low in carbohydrates and high in protein and fat, which makes them good for stabilizing blood sugar. Just be sure to watch your serving size. A 1/4-cup portion of shelled walnuts clocks in at 164 calories.</string>
+    <string name="diabetes_diet5">Oatmeal</string>
+    <string name="diabetes_diet6">Whole grains, such as oats, are better for your blood sugar (the fiber helps minimize spiking) and may actually help improve insulin sensitivity. Oats contain fiber in the form of beta-glucans, which are the soluble fibers that cause oats to bulk up in liquid. Soluble fiber regulates blood sugar by slowing down the breakdown and absorption of carbohydrates from other foods you eat. Studies have also shown oats can help improve blood pressure, cholesterol and fasting insulin levels.</string>
+    <string name="diabetes_diet7">Dairy</string>
+    <string name="diabetes_diet8">  Whether you choose fat-free or full-fat dairy, its most important to watch for added sugars in flavored yogurts and milks, which can add significant calories in the form of simple carbs.</string>
+    <string name="diabetes_diet9">Beans</string>
+    <string name="diabetes_diet10">Beans are loaded with fiber and protein to keep you feeling full. Beans are also a source of carbohydrates, with about 20 grams of carbs per half-cup serving. One Canadian study showed that people who added a cup or more of beans to their diets every day had better control of their blood sugar and lowered their blood pressure. Beans are inexpensive and incredibly versatile. Mix things up by adding different varieties, such as black, pinto, garbanzo or cannellini beans, to veggie-packed salads and soups.</string>
+    <string name="diabetes_diet11">Broccoli</string>
+    <string name="diabetes_diet12">Broccoli—and other cruciferous foods, such as kale, cauliflower and Brussels sprouts—all contain a compound called sulforaphane. This anti-inflammatory compound helps control blood sugar and protects blood vessels from damage associated with diabetes. Broccoli is not only low in calories and carbs—1 cup of cooked chopped florets has just 55 calories and 11 grams of carbohydates—but it also packs a lot of nutrients, including vitamin C and iron. You can feel free to fill half your plate with this good-for-you green veggie.</string>
+    <string name="diabetes_diet13">Quinoa</string>
+    <string name="diabetes_diet14">This protein-rich whole grain is a great substitute for white pasta or white rice. It contains 3 grams of fiber and 4 grams of protein per 1/2-cup serving of cooked quinoa. The boost of fiber and protein means quinoa gets digested slowly, which keeps you full and stops your blood sugar from spiking. Quinoa is also considered a complete protein, because it contains all nine essential amino acids, needed to build muscle, which is rare for plant-based protein sources. Plus, its rich in minerals, such as iron and magnesium.</string>
+    <string name="diabetes_diet16">Spinach</string>
+    <string name="diabetes_diet17">Spinach is one of the best sources of magnesium, which helps your body use insulin to absorb the sugars in your blood and manage blood sugar more efficiently. This leafy green is also high in vitamin K and folate, among other key nutrients. Plus, a 2-cup serving of raw spinach delivers only 2 grams of carbohydrates and 14 calories. Munch on raw baby spinach in salads, add it to your morning smoothie or sauté it with garlic and olive oil for a healthy side dish.</string>
+    <string name="diabetes_diet18">Olive Oil</string>
+    <string name="diabetes_diet19">This Mediterranean-diet staple packs a punch when it comes to managing diabetes, mostly due to its high monounsaturated fatty acid, or MUFA, content. Several studies have shown that a diet high in MUFAs helps keep blood sugar in check by lowering insulin resistance, helping cells better respond to your bodys insulin. There is no need to fear the fat from olive oil. While fat has more calories than carbohydrates, gram for gram, it helps keep you full, minimizes blood sugar spikes and allows your body to absorb key nutrients, such as vitamins A and E.</string>
+    <string name="diabetes_diet20">Salmon</string>
+    <string name="diabetes_diet21">Not only is salmon high in protein, its also rich in omega-3 fatty acids, which can help keep your heart healthy by lowering blood pressure and improving cholesterol levels. Other types of fatty fish that contain omega-3 fatty acids, such as tuna, mackerel and sardines, can also provide these protective effects, which are especially important for people with diabetes, who are also at a greater risk for cardiovascular disease.</string>
+    <!--Diabetes Prevention-->
+    <string name="diabetes_prevent">Diabetes Prevention</string>
+    <string name="diabetes_prevent1">1.Cut Sugar and Refined Carbs From Your Diet. 2. Work Out Regularly.  3. Drink Water as Your Primary Beverage.4. Lose Weight If Youre Overweight or Obese. 5. Quit Smoking. 6. Follow a Very-Low-Carb Diet. 7. Watch Portion Sizes.  8.  Avoid Sedentary Behaviors. 9.Eat a High-Fiber Diet.  10.Optimize Vitamin D Levels.  11. Minimize Your Intake of Processed Foods.  12. Drink Coffee or Tea</string>
+    <string name="diabetes_prevent2">Your Health Matters</string>
+    <!--NewCastle Beginning-->
+    <string name="Newcastle_About">About</string>
+    <string name="Newcastle_About1">Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesnt make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.
+
+Over time, having too much glucose in your blood can cause health problems. Although diabetes has no cure, you can take steps to manage your diabetes and stay healthy.
+
+Sometimes people call diabetes “a touch of sugar” or “borderline diabetes.” These terms suggest that someone doesn’t really have diabetes or has a less serious case, but every case of diabetes is serious. </string>
+
+
+    <string name="Newcastle_cause">Cause</string>
+    <string name="Newcastle_cause1">Type 1 diabetes occurs when your immune system, the body’s system for fighting infection, attacks and destroys the insulin-producing beta cells of the pancreas. Type 2 diabetes—the most common form of diabetes—is caused by several factors, including lifestyle factors and genes.</string>
+
+
+    <string name="Newcastle_signs">Signs and Symptoms</string>
+    <string name="Newcastle_Signs2">
+Common warnings signs of diabetes include:
+
+    Increased thirst
+    Increased hunger (especially after eating)
+    Dry mouth
+    Frequent urination or urine infections
+    Unexplained weight loss (even though you are eating and feel hungry)
+    Fatigue (weak, tired feeling)
+    Blurred vision
+    Headaches</string>
+    <string name="Newcastle_Signs1">Common Signs</string>
+
+    <string name="Newcastle_treatment">Treatment</string>
+    <string name="Newcastle_treament1">Controlling blood sugar through diet, oral medication or insulin is the main treatment. Regular screening for complications is also required.</string>
+    <!--NewCastle Ending-->
+
+    <string name="create_new_account">CREATE NEW ACCOUNT</string>
+    <string name="slide_1_title">Your Health is Your Future</string>
+    <string name="slide_1_desc">Make Yourself Comfortable.</string>
+    <string name="slide_2_title">Measure Your Sugar Level</string>
+    <string name="slide_2_desc">Lets Say STOP to Diabetes</string>
+    <string name="slide_3_title">Make Yourself Comfortable.</string>
+    <string name="slide_3_desc">Get Assistant From the Doctor</string>
+    <string name="slide_4_title">Your Health is what it Matters.</string>
+    <string name="slide_4_desc">Measure Your Sugar Level</string>
+    <string name="title_activity_main">MySugar</string>
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will remind you to make entiries of your expense</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_learning">LearningActivity</string>
+    <string name="title_activity_courses">CoursesActivity</string>
+    <string name="title_activity_prevention">PreventionActivity</string>
+    <string name="title_activity_nutritions">NutritionsActivity</string>
+
+    <string-array name="array_spinner">
+        <item>Nairobi</item>
+        <item>Rift valley</item>
+        <item>Central</item>
+        <item>Nyanza</item>
+        <item>Western</item>
+        <item>Eastern</item>
+    </string-array>
+
+
+    <string name="blood_group">Select Blood Group</string>
+    <string-array name="array_blood_group">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string name="rhesus">Select Rhesus Type</string>
+    <string-array name="array_rhesus">
+        <item>Rhesus +ve</item>
+        <item>Rhesus -ve</item>
+    </string-array>
+
+    <string name="gender">Select Gender</string>
+    <string-array name="array_gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string name="title_activity_driver_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    //Activity 2- problems category from main activity cardviews
+
+    <string-array name="array_circulatory_problem">
+        <item>Heart Attack</item>
+        <item>Angina Pectoris</item>
+        <item>Fainting</item>
+        <item>Shock</item>
+    </string-array>
+
+
+    //universal Titles
+    <string name="title_about"><u>About</u></string>
+    <string name="title_recognition"><u>Recognition</u> </string>
+    <string name="title_treatment"><u>Treatment</u></string>
+
+
+    //heart attack contents
+    <string name="heart_about">
+        A heart attack occurs when the flow of blood rich in oxygen, to a section of heart muscle is blocked.
+    </string>
+
+    <string name="heart_recognition">
+        &#8226;Persistent central chest pain that spread to\n the left arm and jaw.\n
+        &#8226;Sudden fainting and dizziness.\n
+        &#8226;Shortness of breath or difficulty in breathing.\n
+        &#8226;Profuse sweating.\n
+        &#8226;Rapid or irregular heartbeats.\n
+        &#8226;The patient may suddenly collapse.\n
+        &#8226;Nausea.
+    </string>
+
+    <string name="heart_treatment">
+        &#8226;Encourage the patient to rest and make him or her as comfortable as possible to ease the
+        strain on his or her heart.\n\n
+        &#8226;A half sitting position with the patient\'s head and shoulders well
+        supported and knees bent is always the best.\n\n
+        &#8226;Call for an ambulance
+        and state that you suspect it to be a heart attack.\n\n
+        &#8226;If the patient is not allergic to aspirin and is fully conscious, give him or her 300 mg asprin
+        tablet and advice him or her to chew it slowly.\n\n
+        &#8226;Begin CPR if the person is unconscious, please
+        refer to the steps in performing CPR in the app.\n
+    </string>
+
+    //agina attack contents
+    <string name="agina_about">
+       Angina is a chestpain that occurs when the blood supply to heart muscles is restricted. It
+        usually occurs due to hardening or narrowing of heart arteries.</string>
+
+    <string name="title_agina_types">
+      <u>Types of Angina</u>
+    </string>
+
+    <string name="agina_types">
+        <u>Stable-</u> Attacks are brought by
+        triggers such as exercise but improves with medication and rest.
+        It is not life threatening on its own.\n\n
+        <u>Unstable-</u> Attacks are unpredictable and continue despite resting. It should be regarded as
+        a medical emergency as it indicates the functioning
+        of the heart has suddenly deteroriated.
+
+    </string>
+
+
+    <string name="agina_recognition">
+        &#8226;Pain easing with rest.\n
+        &#8226;Central chest pain spreading to the jaw.\n
+        &#8226;Feeling of anxiety.\n
+        &#8226;Profuse sweating.\n
+        &#8226;Dizziness.\n
+        &#8226;Shortness of breath.\n
+        &#8226;Nausea and fatigue.
+    </string>
+
+    <string name="agina_treatment">
+        &#8226;Advice the patient to stop any activity he
+        or she is engaged in and sit down straight away.\n\n
+        &#8226;Reassure them and make
+        them comfortable as this will help ease the pain.\n\n
+        &#8226;Advice the patient
+        to take antiAngina medication e.g. aerosol spray or tablet.\n\n
+        &#8226;If the pain subsides
+        (In case of stable Angina) the patient
+        can resume to his or her activities.\n\n
+        &#8226;If the pain persists or resumes,
+        suspect heart attack and call for an ambulance.\n
+    </string>
+
+
+    //fainting contents
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="faint_about">
+       Fainting also known as syncope, is the sudden and temporary loss of
+        consciousness and posture caused by decrease inflow of blood rich in oxygen to the brain.
+    </string>
+
+    <string name="faint_recognition">
+        &#8226;Dizziness or light headedness.\n
+        &#8226;Rapid heartbeat or pulse.\n
+        &#8226;Burled vision.\n
+        &#8226;Profuse sweating.\n
+        &#8226;Headache.\n
+        &#8226;Nausea.\n
+        &#8226;Ringing in the ears.\n
+        &#8226;The patient may suddenly collapse.
+    </string>
+
+    <string name="faint_treatment">
+        &#8226;When the patient feels faint, advise him to lie down in his back,
+        rise his legs at least 10 inches (30cm) or support his ankles on your.\n\n
+        &#8226;A half sitting position with the patient\'s head and shoulders well
+        supported and knees bent is always the best
+        shoulders since this improves blood circulation to the brain.\n\n
+        &#8226;Make sure the casualty has plenty of
+        fresh air by opening windows and asking any bystanders to stay clear.\n\n
+        &#8226;As he recovers reassure him or her and help him or her sit up gradually.\n\n
+        &#8226;If the patient starts feeling faint again, advice him or her to lie down
+        again and raise and support his legs until he recovers fully.\n\n
+        &#8226;To reduce the chance of fainting again, don\'t get the person up too quickly.\n\n
+        &#8226;If the patient doesn\'t regain consciousness within
+        one minute, call your local emergency number.\n\n
+         &#8226;Begin CPR if the person does not show any signs of circulation such as breathing,
+        coughing or movement, please refer to the steps in performing CPR in the app.\n\n
+
+
+    </string>
+
+    //shock contents
+
+    <string name="shock_about">
+       Shock is a life threatening condition, that occurs
+        when you do not have enough blood circulating around your body,
+        and caused by fators such as uncontrolled bleeding, severe burns and spinal injury.</string>
+
+    <string name="title_shock_types">
+      <u>Types of Shock</u>
+    </string>
+
+    <string name="shock_types">
+     Some of the types include:\n\n
+    <u>Hypovolaemic:</u> It occurs when there is no enough blood volume caused by
+        excessive bleeding, dehydration or severe burns.\n\n
+        <u>Nuerogenic:</u> It occurs when there is damage on a person\'s
+        spine which in turn damages the nerves that control the width of the blood vessels.\n\n
+        <u>Cardiogenic:</u> It occurs when the heart cannot effectively pump blood
+        around the body caused by heart attack and other heart diseases.\n\n
+        <u>Septic-</u> Caused by an infection which causes blood vessels to expand hence
+        cause a drop in the blood pressure.
+    </string>
+
+
+    <string name="shock_recognition">
+        &#8226;Dizziness or light headedness.\n
+        &#8226;Rapid heartbeat or pulse.\n
+        &#8226;Difficulty in breathing and anxiety.\n
+        &#8226;Confusion and disorientation.\n
+        &#8226;Pale, cold, clammy skin.\n
+        &#8226;Nausea and vomiting.\n
+        &#8226;Low urine output or dark urine.\n
+        &#8226;Thirst or a dry mouth.\n
+        &#8226;Unconsciousness.
+    </string>
+
+    <string name="shock_treatment">
+        &#8226;If the patient is conscious,
+        lie him down and keep him warm and comfortable.\n\n
+        &#8226;Loosen his tight clothing.\n\n
+        &#8226;If possible, raise the patient\'s legs slightly above the level of their torso and head.
+        If you suspect spinal injury or if raising the legs cause further pain, then DO NOT raise them.\n\n
+        &#8226;Manage any signs of external bleeding e.g. by firm pressing a clean cloth on the wound.\n\n
+        &#8226;DO NOT give the person anything to eat or drink even if they are thirsty.\n\n
+        &#8226;Reassure the person and advice hem to rest or stay still as you await the ambulance to arrive.\n\n
+
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

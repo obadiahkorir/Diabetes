@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Appointment Date"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/in_date"
+
+                android:layout_width="fill_parent"
+
+                android:hint="Select Date..........."
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dip"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Diabetes Type"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/type"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Appointment Time:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+
+            <EditText android:id="@+id/in_time"
+
+                android:layout_width="fill_parent"
+
+                android:hint="Select time............."
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+
+                android:layout_marginBottom="15dp"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:text="Names:"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/names"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+
+                android:layout_marginBottom="15dp"
+
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:inputType="textEmailAddress"
+
+                android:ems="10"
+
+                android:text="Email Address"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+
+            <!-- address input -->
+            <EditText android:id="@+id/email"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dip"
+
+                android:layout_marginBottom="15dip"
+
+                android:singleLine="true"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:text="Your Contact"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+            <EditText android:id="@+id/contact"
+
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+
+                android:paddingRight="10dp"
+
+                android:paddingTop="10dp"
+
+                android:textSize="17sp"/>
+
+            <Button android:id="@+id/ButtonInsert"
+
+                android:layout_gravity="left"
+
+                android:layout_width="fill_parent"
+
+                android:textColor="@color/grey"
+
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/login_button"
+
+                android:text="Submit"/>
+
+            <Button android:id="@+id/btncancel"
+
+                android:textColor="@color/grey"
+
+                android:layout_gravity="right"
+
+                android:layout_width="fill_parent"
+
+                android:background="@drawable/login_button"
+
+                android:layout_height="wrap_content"
+
+                android:text="Cancel"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

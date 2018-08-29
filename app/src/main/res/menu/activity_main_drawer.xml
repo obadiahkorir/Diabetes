@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title=" Manage Profile" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/backup"
+            android:title="Daily Monitor" />
+        <item
+            android:id="@+id/nav_medication"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Medication" />
+        <item
+            android:id="@+id/nav_exer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Exercise" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_pressure"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Blood Pressure" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Blood Test" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Meal" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="LookBook" />
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/settings"
+            android:title="Weight" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
